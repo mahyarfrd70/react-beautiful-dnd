@@ -69,7 +69,7 @@ function getDraggingStyle(dragging: DraggingMapProps): DraggingStyle {
     position: 'fixed',
     // As we are applying the margins we need to align to the start of the marginBox
     top: box.marginBox.top,
-    left: box.marginBox.left,
+    right: box.marginBox.left,
 
     // ## Sizing
     // Locking these down as pulling the node out of the DOM could cause it to change size
